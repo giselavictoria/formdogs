@@ -1,0 +1,154 @@
+/*Estilos generales*/
+
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 1220px;
+    width: 1220px;
+    background: #e5e5e5;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    color: 000000;
+    padding: 0px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 0px 35px 0px 35px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  a:hover {
+    color: #eb5757;
+  }
+  
+  form {
+    padding: 0px 35px 0px 35px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"] {
+    width: 150px;
+    height: 10px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background: #c4c4c4;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  
+  /*Marco*/
+  
+  .container {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    top: 100px;
+    width: 800px;
+    height: 600px;
+    background: #4f4f4f;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+  
+  /*Para el contenido*/
+  
+  .left {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 50px;
+    width: 250px;
+    height: 500px;
+    background: #c4c4c4;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    top: 50px;
+    width: 450px;
+    height: 500px;
+    background: #f2f2f2;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  /*Para la navegacion*/
+  
+  ul {
+    padding: 0px;
+  }
+  
+  ul li {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  /*Para los formularios*/
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flexUp {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  
+  .inputBackground {
+    background: #c4c4c4;
+    border-radius: 4px;
+    margin: 4px 2px;
+    padding: 10px 20px;
+  }
+  
+  button {
+    width: 65px;
+    height: 25px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background: #eb5757;
+  }
+  
+  /*Para los botones de navegacion*/
+  
+  .flexBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px 5px 10px;
+  }
+  
+  .otherButtons {
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    background: #4f4f4f;
+    border-radius: 20px;
+  }
+  

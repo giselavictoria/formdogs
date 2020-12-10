@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pet form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <ul>
+          <li><a href="#">Perfil del humano</a></li>
+          <li><a href="#">Datos básicos del perro</a></li>
+          <li><a href="#">Detalles del perro</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <h2>Yei, amamos a los perros! Contanos lo básico sobre el tuyo</h2>
+        <form action="#">
+          <div class="flex">
+            <div class="flexUp">
+              <label>Nombre</label>
+              <input type="text" />
+            </div>
+            <div class="flexUp">
+              <label>Edad (en años)</label>
+              <input type="number" />
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flexUp">
+              <label>Raza</label>
+              <input type="text" />
+            </div>
+            <div class="flexUp">
+              <label>Cumpleaños</label>
+              <input type="date" />
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flexUp">
+              <label>Genero</label>
+              <div class="inputBackground">
+                <button type="button">Hembra</button>
+                <button type="button">Macho</button>
+              </div>
+            </div>
+            <div class="flexUp">
+              <label>Castrada/o</label>
+              <div class="inputBackground">
+                <button type="button">Si</button>
+                <button type="button">No</button>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flexUp">
+              <label>Peso</label>
+              <div class="inputBackground">
+                <button type="button">0-7kg</button>
+                <button type="button">7-15kg</button>
+                <button type="button">15-30kg</button>
+                <button type="button">+30kg</button>
+              </div>
+            </div>
+          </div>
+          <div class="flexBottom">
+            <button type="button" class="otherButtons">Volver</button>
+            <button type="submit" class="otherButtons">Continuar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
